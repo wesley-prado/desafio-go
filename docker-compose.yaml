@@ -1,0 +1,10 @@
+services:
+  go:
+    build:
+      context: go
+      dockerfile: Dockerfile.prod
+    image: wesleypradodev/fullcycle:prod
+    container_name: go
+    tty: true
+    volumes:
+      - ./go:/usr/src/app/

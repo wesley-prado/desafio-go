@@ -1,0 +1,25 @@
+FROM golang:alpine AS builder
+
+USER root
+
+WORKDIR /usr/src/app
+
+COPY <<EOF ./main.go
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Full Cycle Rocks!!")
+}
+EOF
+
+RUN go build -o hello ./main.go
+
+FROM scratch
+
+WORKDIR /usr/src/app
+
+COPY --from=builder /usr/src/app/hello /hello
+
+CMD [ "/hello" ]
