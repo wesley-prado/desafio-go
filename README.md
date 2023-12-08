@@ -12,4 +12,4 @@ docker-compose up --build
 Este comando irá construir a imagem Docker usando o arquivo Dockerfile.prod no diretório go, e então executará o contêiner Docker. Quando o contêiner é executado, ele imprimirá "Full Cycle Rocks!!" na linha de comando.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT. Para mais detalhes, veja o arquivo [LICENSE](https://opensource.org/license/mit/).
+Este projeto está licenciado sob a Licença MIT. Para mais detalhes, veja o arquivo [LICENSE](https://github.com/wesley-prado/desafio-go/blob/main/LICENSE)
