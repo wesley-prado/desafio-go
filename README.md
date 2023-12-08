@@ -1,6 +1,6 @@
 # Desafio Full Cycle Rocks!!
 
-Este projeto é uma resposta a um desafio onde o objetivo era criar uma imagem Docker que imprime "Full Cycle Rocks!!" na linha de comando usango Go. A imagem Docker resultante tem um limite de tamanho de 2MB.
+Este projeto é uma resposta a um desafio onde o objetivo era criar uma imagem Docker que imprime "Full Cycle Rocks!!" na linha de comando usando Go. A imagem Docker resultante tem um limite de tamanho de 2MB.
 
 ## Como usar
 
